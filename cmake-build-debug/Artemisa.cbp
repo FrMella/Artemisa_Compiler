@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Artemisa"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/francisco/CLionProjects/Artemisa/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/francisco/CLionProjects/Artemisa/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Artemisa">
+				<Option output="/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Artemisa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/francisco/CLionProjects/Artemisa/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/francisco/CLionProjects/Artemisa/./Artemisa/Core"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 Artemisa"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Artemisa/fast">
+				<Option output="/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Artemisa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/francisco/CLionProjects/Artemisa/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/francisco/CLionProjects/Artemisa/./Artemisa/Core"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 Artemisa/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/francisco/CLionProjects/Artemisa/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/francisco/CLionProjects/Artemisa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/francisco/CLionProjects/Artemisa/Core/InlineASM_thumb.h">
+			<Option target="Artemisa"/>
+		</Unit>
+		<Unit filename="/home/francisco/CLionProjects/Artemisa/Core/compileParse.h">
+			<Option target="Artemisa"/>
+		</Unit>
+		<Unit filename="/home/francisco/CLionProjects/Artemisa/Core/coreConfig.h">
+			<Option target="Artemisa"/>
+		</Unit>
+		<Unit filename="/home/francisco/CLionProjects/Artemisa/Core/helper_memAlloc.h">
+			<Option target="Artemisa"/>
+		</Unit>
+		<Unit filename="/home/francisco/CLionProjects/Artemisa/Core/helper_types.h">
+			<Option target="Artemisa"/>
+		</Unit>
+		<Unit filename="/home/francisco/CLionProjects/Artemisa/Core/inlineASM_thumb.c">
+			<Option target="Artemisa"/>
+		</Unit>
+		<Unit filename="/home/francisco/CLionProjects/Artemisa/main.c">
+			<Option target="Artemisa"/>
+		</Unit>
+		<Unit filename="/home/francisco/CLionProjects/Artemisa/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

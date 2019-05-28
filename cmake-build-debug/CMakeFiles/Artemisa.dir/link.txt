@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Artemisa.dir/main.c.o CMakeFiles/Artemisa.dir/Core/inlineASM_thumb.c.o  -o Artemisa 

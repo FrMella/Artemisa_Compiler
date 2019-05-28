@@ -1,0 +1,3 @@
+/home/francisco/CLionProjects/Artemisa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/francisco/CLionProjects/Artemisa/cmake-build-debug/CMakeFiles/Artemisa.dir
+/home/francisco/CLionProjects/Artemisa/cmake-build-debug/CMakeFiles/edit_cache.dir
